@@ -38,11 +38,12 @@
                         During my internship at Unified Mentor, I honed my skills by working on projects like a basic calculator, an image slider, a currency converter app, a weather app, and JavaScript-based games. These experiences have strengthened my expertise in DOM manipulation, REST API integration, event handling, and logic building.
                         I am constantly learning and growing, with a goal to create seamless, user-friendly web experiences. Driven by curiosity and a love for coding, I am excited to contribute my skills to impactful projects.</p>
                         <div class="tabTitles">
-                            <p class="tabLinks activeLink">Skills</p>
-                            <p class="tabLinks">Experiences</p>
-                            <p class="tabLinks">Education</p>
+                            <p class="tabLinks activeLink" onclick="openTab('skills')">Skills</p>
+                            <p class="tabLinks" onclick="openTab('experience')">Experience</p>
+                            <p class="tabLinks" onclick="openTab('education')">Education</p>
+                            <p class="tabLinks" onclick="openTab('certificates')">Certifiactions</p>
                         </div>
-                        <div class="tabContent">
+                        <div class="tabContents activeTab" id="skills">
                             <ul>
                                 <li><span>Frontend Development</span><br> HTML5, CSS3, Advance JavaScript</li>
                                 <li><span>Programming Concepts</span><br> DOM Manipulation, Event Handling, Logic Building, Debugging, Error Handling</li>
@@ -50,10 +51,33 @@
                                 <li><span>Version Control</span><br> Git, GitHub</li>
                             </ul>
                         </div>
+                        <div class="tabContents" id="experience">
+                            <ul>
+                                <li><span>Oct,2024-Current</span><br> Internship at Unified Mentor</li>
+                                <li><span>Mar,2021-June,2024</span><br> Freelancing & Civil Services Aspirant</li>
+                                <li><span>Nov,2020-Mar,2021</span><br> Programmer Analyst Trainee at Cognizant Technology Solutions</li>
+                            </ul>
+                        </div>
+                        <div class="tabContents" id="education">
+                            <ul>
+                                <li><span>2016-2020</span><br> B. Tech from Galgotia College, Greater Noida - 79%(Honors)</li>
+                                <li><span>2016</span><br> Intermediate - 82%</li>
+                                <li><span>2014</span><br> High School - 87.5%</li>
+                            </ul>
+                        </div>
+                        <div class="tabContents" id="certificates">
+                            <ul>
+                                <li><span>Nov,2024</span><br> Meta's Version Control</li>
+                                <li><span>Oct-Nov,2024</span><br> Meta's Programming with JavaScript</li>
+                                <li><span>Oct,2024</span><br> Front-end Web Development from Reliance Foundation</li>
+                            </ul>
+                        </div>
                 </div>
             </div>
         </div>
 
     </div>
+
+    <script src="Script.js"></script>
 </body>
 </html>
