@@ -44,10 +44,17 @@ navOpenBtn.addEventListener('click',()=>{
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxV-Ht2zpN3lDdHOv1na9KgT-7Jmqi4W-Tl5MaeADH_vEso7kyBOPcpQe4KXmhivicN/exec'
 const form = document.forms['submit-to-google-sheet']
+const msg = document.querySelector("#msg")
 
 form.addEventListener('submit', e => {
   e.preventDefault()
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-    .then(response => console.log('Success!', response))
+    .then(response => {
+        msg.innerHTML = "Message sent Sucessfully"
+        setTimeout(()=>{
+            msg.innerHTML = ""
+        }, 4000)
+        form.reset()
+    })
     .catch(error => console.error('Error!', error.message))
 })

@@ -311,9 +311,55 @@ form .btn2{
 .copyright i{
     color: #ff004f;
 }
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+}
 /*---------------------responsive design--------------------------*/
 nav .fa-solid{
     display: none;
+}
+
+@media only screen and (max-width: 768px){
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 60px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .subTitle{
+        font-size: 56px;
+    }
+    .aboutCol2{
+        font-size: 14px;
+    }
+    #aboutMe{
+        font-size: 16px;
+    }
+    .tabLinks{
+        font-size: 18px;
+        margin-right: 22px;
+    }
 }
 
 @media only screen and (max-width: 500px){
@@ -355,9 +401,6 @@ nav .fa-solid{
     .subTitle{
         font-size: 35px;
     }
-    /* .aboutCol1, .aboutCol2{
-        flex-basis: 100%;
-    } */
      .aboutCol1 , .aboutCol2{
         flex-basis: 100%;
      }
