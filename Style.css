@@ -431,3 +431,40 @@ nav .fa-solid{
         text-align: center;
     }
 }
+
+/*------------------------services.html-------------------------*/
+.subHeading{
+    font-size: 40px;
+    font-weight: 500;
+    color: #ff004f;
+}
+.col1{
+    flex-basis: 45%;
+    text-align: center;
+    margin: 20px 0;
+}
+.col2{
+    flex-basis: 45%;
+    text-align: center;
+    margin: 20px 0;
+}
+.col1 img{
+    width: 20%;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+.col2 img{
+    width: 100%;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+.col2 ul li span{
+    color: #b54769;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.col2 ul li{
+    text-align: start;
+    text-decoration: none;
+    font-size: 16px;
+}
