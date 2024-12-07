@@ -61,7 +61,8 @@ If you have any suggestions or want to collaborate, feel free to reach out to me
 
 If you want your portfolio to be copyright-free, you can use a permissive license or a statement like this:
 
-📜 License
+## 📜 License
+
 This portfolio is open for public use under the Creative Commons Zero (CC0) License.
 
 You are free to:
