@@ -67,6 +67,6 @@ This portfolio is open for public use under the Creative Commons Zero (CC0) Lice
 
 You are free to:
 
-Copy, modify, and distribute the content of this portfolio for personal or commercial purposes.
-Use the code, design, or any other elements except the owners personal details without asking for permission.
-No attribution is required, but it would be appreciated.
+- Copy, modify, and distribute the content of this portfolio for personal or commercial purposes.
+- Use the code, design, or any other elements except the owners personal details without asking for permission.
+- No attribution is required, but it would be appreciated.
