@@ -58,9 +58,6 @@ If you have any suggestions or want to collaborate, feel free to reach out to me
 - Email: wintersoldier110@gmail.com  
 - GitHub: https://github.com/SaurabhKuntal110  
 
-
-If you want your portfolio to be copyright-free, you can use a permissive license or a statement like this:
-
 ## 📜 License
 
 This portfolio is open for public use under the Creative Commons Zero (CC0) License.
